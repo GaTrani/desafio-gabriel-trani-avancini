@@ -63,7 +63,6 @@ class CaixaDaLanchonete {
                 }
             }
 
-            // Restante do cálculo do total e formatação
             if (metodoDePagamento == 'dinheiro') {
                 total = total * 0.95;
             } else if (metodoDePagamento == 'credito') {
